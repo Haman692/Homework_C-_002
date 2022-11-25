@@ -12,4 +12,4 @@ if (0 < number && number < 8)
         Console.WriteLine("Сегодня надо поработать");
 }
 else 
-    Console.WriteLine("В не деле всего 7 дней!!!");
+    Console.WriteLine("В неделе всего 7 дней!!!");
