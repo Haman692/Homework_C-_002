@@ -2,11 +2,11 @@
 
 Console.Clear();
 Console.WriteLine("Введите трехзначное число ");
-int nuber = Convert.ToInt32(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
-if ((nuber > 99) && (nuber < 1000)) 
+if ((number > 99) && (number < 1000)) 
 {
-    int secondNumber = (nuber / 10) % 10;
-    Console.WriteLine($"Вторая цифра числа {nuber} - {secondNumber}");
+    int secondNumber = (number / 10) % 10;
+    Console.WriteLine($"Вторая цифра числа {number} - {secondNumber}");
 }
 else Console.WriteLine("Неподходящие число");
